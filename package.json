@@ -44,5 +44,8 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "bin":{
+    "typescript-npm-starter-bin": "./lib/cli.js"
+  }
 }
