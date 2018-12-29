@@ -3,17 +3,16 @@
 # usage
 
 ```
-yarn
+npm install
 ```
-
 
 
 # tips
 
 
 ```
-yarn add xxx
-yarn add yyy --dev
+npm install xxx --save
+npm install yyy --save-dev
 ```
 
 ```

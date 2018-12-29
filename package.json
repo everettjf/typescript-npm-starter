@@ -8,7 +8,8 @@
     "test": "jest --config jestconfig.json",
     "start": "npm run build && node lib/index.js",
     "build": "tsc",
-    "format": "prettier --tab-width 4 --write \"src/**/*.ts\" \"src/**/*.js\"",    "lint": "tslint -p tsconfig.json",
+    "format": "prettier --tab-width 4 --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -45,7 +46,7 @@
   "files": [
     "lib/**/*"
   ],
-  "bin":{
+  "bin": {
     "typescript-npm-starter-bin": "./lib/cli.js"
   }
 }
