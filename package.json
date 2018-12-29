@@ -14,7 +14,8 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "cli": "npm run build && node lib/cli.js"
   },
   "repository": {
     "type": "git",
